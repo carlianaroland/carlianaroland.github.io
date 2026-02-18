@@ -25,10 +25,9 @@ while (true) {
         else if (opChoice == "/") ans = fNum / sNum;
         else if (opChoice == "%") ans = fNum % sNum;
         else ans = "computation error"
-    }
 
     if (typeof ans === "number") { answers.push(ans); }
-
+    }
     document.write("<tr><td>"+firstNum+"</td><td>"+opChoice+"</td><td>"+secNum+"</td><td>"+ans+"</td></tr>");
 }
 document.write("</table>")
@@ -44,3 +43,4 @@ if (answers.length > 0) {
     document.write("<tr><td>"+min+"</td><td>"+max+"</td><td>"+avg.toFixed(2)+"</td><td>"+total+"</td></tr>");// [cite: 39]
     document.write("</table>");
 }
+
