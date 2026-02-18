@@ -44,4 +44,6 @@ if (answers.length > 0) {
     document.write("<tr><td>"+min+"</td><td>"+max+"</td><td>"+avg.toFixed(2)+"</td><td>"+total+"</td></tr>");// [cite: 39]
     document.write("</table>");
 }
+}
+
 
