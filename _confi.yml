@@ -1,0 +1,13 @@
+title: Portfolio
+description: Personal site and projects
+url: "https://carlianaroland.github.io"
+baseurl: ""
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
