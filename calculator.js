@@ -44,7 +44,9 @@ if (answers.length > 0) {
     let avg = total / answers.length;
 
     document.write("<h3>Summary Table</h3>");
+    document.write("<table>");
     document.write("<table><tr><th>Minimum</th><th>Maximum</th><th>Average</th><th>Total</th></tr>");
     document.write("<tr><td>"+min+"</td><td>"+max+"</td><td>"+avg.toFixed(2)+"</td><td>"+total+"</td></tr>");
     document.write("</table>");
 }
+
